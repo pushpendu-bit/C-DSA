@@ -97,13 +97,13 @@ Node* deleteKthElement(Node* head,int k){
     temp->next = NULL;
     temp->back = NULL;
 
-    return head;
+    return NULL;
 
 }
 int main(){
     vector<int> arr = {1,2,3,4,5,6,7};
     Node* head = arrToDLL(arr);
-    head = deleteKthElement(head, 3);
+    head = deleteKthElement(head, 2);
     print(head);
 
     return 0;
