@@ -8,6 +8,7 @@ int main(){
     // vec.insert(vec.begin()+1, 29);
 
     vec.insert(vec.begin()+1, 3, 29);
+    vec.insert(vec.end(), 3, 29);
 
     for(int x : vec){
         cout << x << endl;
