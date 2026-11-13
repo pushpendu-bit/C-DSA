@@ -26,7 +26,7 @@ Node* convertarrToLL(vector<int> &arr){
         mover->next = temp;
         mover = temp;
     }
-    return head;
+    return head; 
 }
 void print(Node* head){
     Node* temp = head;
