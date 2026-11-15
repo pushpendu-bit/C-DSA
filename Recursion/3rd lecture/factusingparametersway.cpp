@@ -1,0 +1,15 @@
+// Parameters way 
+#include<iostream>
+using namespace std;
+void factorial(int i,int fact){
+    if(i == 0){
+        cout << fact;
+        return;
+    }
+    factorial(i-1, fact*i);
+}
+int main(){
+    int n;
+    cin >> n;
+    factorial(n, 1);
+}
